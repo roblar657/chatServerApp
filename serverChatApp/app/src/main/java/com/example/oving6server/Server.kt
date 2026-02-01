@@ -1,6 +1,5 @@
 package com.example.oving6server
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.util.Log
 import kotlinx.coroutines.*
@@ -134,8 +133,7 @@ class Server(
 	}
 
 	/** Initialiserer kommunikasjon med en bruker */
-	@SuppressLint("SuspiciousIndentation")
-    @OptIn(ExperimentalCoroutinesApi::class)
+	@OptIn(ExperimentalCoroutinesApi::class)
 	private fun initUserCommunication(user: User) {
 
 		// Lytter på bruker, og plasserer alt i

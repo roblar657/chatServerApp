@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.clientChatApp"
+    namespace = "com.example.oving6client"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.clientChatApp"
+        applicationId = "com.example.oving6client"
         minSdk = 36
         targetSdk = 36
         versionCode = 1

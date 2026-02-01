@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oving6Server</string>
+    <string name="msg_room_broadcast">[room %1$d] %2$s&gt; %3$s</string>
+    <string name="msg_private_message">[private message] %1$s&gt; %2$s</string>
+    <string name="msg_welcome">[Server message] Velkommen!</string>
+    <string name="msg_setusername_missing_name">[Server message] SETUSERNAME [brukernavn] mangler navn.</string>
+    <string name="msg_username_taken">[Server message] Brukernavnet \'%1$s\' er opptatt.</string>
+    <string name="msg_registered_as">[Server message] Registrert som \'%1$s\'.</string>
+    <string name="msg_user_changed_name">[Server message] %1$s har endret navn til %2$s</string>
+    <string name="msg_must_set_username">[Server message] Du må SETUSERNAME først.</string>
+    <string name="msg_provide_room_number">[Server message] Oppgi et gyldig romnummer: JOIN [nummer]</string>
+    <string name="msg_user_left_room">[Server message] %1$s har forlatt rommet</string>
+    <string name="msg_joined_room_empty">[Server message] Du har blitt med i rom %1$d. Rommet er tomt.</string>
+    <string name="msg_joined_room_with_users">[Server message] Du har blitt med i rom %1$d. Brukere i rommet: %2$s</string>
+    <string name="msg_user_joined_room">[Server message] %1$s har blitt med i rommet</string>
+    <string name="msg_not_in_room">[Server message] Du er ikke i noe rom.</string>
+    <string name="msg_left_room">[Server message] Du har forlatt rom %1$d</string>
+    <string name="msg_connect_first_broadcast">[Server message] SETUSERNAME først.</string>
+    <string name="msg_must_be_in_room">[Server message] Du må være i et rom for å bruke BROADCAST. Bruk JOIN [nummer].</string>
+    <string name="msg_provide_message">[Server message] Oppgi melding: BROADCAST [melding]</string>
+    <string name="msg_connect_first_private">[Server message] SETUSERNAME først.</string>
+    <string name="msg_private_msg">[Server message] Må være på format PRIVATE [brukernavn] [melding]</string>
+    <string name="msg_private_self">[Server message] Kan ikke sende  PRIVATE melding til seg selv</string>
+
+    <string name="msg_user_not_found">[Server message] Brukeren \'%1$s\' finnes ikke.</string>
+
+
+    <string name="msg_invalid_command">[Server message] Ugyldig kommando</string>
+    <string name="msg_server_started">Server startet på port %1$d</string>
+    <string name="msg_server_stopped">Server stoppet</string>
+    <string name="msg_user_connected">[%1$s] koblet til</string>
+    <string name="msg_user_disconnected">[%1$s] koblet fra</string>
+
+</resources>

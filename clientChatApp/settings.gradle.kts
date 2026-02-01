@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Oving6Client"
+rootProject.name = "clientChatApp"
 include(":app")
  
